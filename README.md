@@ -1,5 +1,5 @@
 # m-mo-POO-validation-
-# mémo-POO-validation-
+
 Mémo de poo
 
 # POO (programmation objet orienté)
@@ -61,7 +61,7 @@ Permet de modifier une valeur d'un attribut privé.
 
 ## Setter
 
-Utilise un return et peut afficher un attribut privé avec echo;
+__Utilise un return et peut afficher un attribut privé avec echo;__
 
 
 ## Héritage(inheritance)
