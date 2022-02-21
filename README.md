@@ -20,7 +20,7 @@ __Ce sont les variables internes où on stocke des valeurs.__
 
 ## Attributs
 
-__variable d'une classe. Définie par var,  ou rien__
+__Caractéristiques d'une classe. Définie par var,  ou rien__
 - var $nom_var
 - $nom_var
 ## Méthode
