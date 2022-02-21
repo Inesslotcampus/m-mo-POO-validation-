@@ -68,7 +68,7 @@ __Utilise un return et peut afficher un attribut privé avec echo;__
 
 __L'inhérence permet de réutiliser une classe dans ton code sans le duppliquer. Il y a une classe parente avec des propriétés et des méthodes et une classe enfant qui peut utiliser le code de la classe parent.__
 
-- class nom_de_la_classe_enfant extend nom_de_la_classe_parent{
+- class nom_de_la_classe_enfant extends nom_de_la_classe_parent{
 
 }
 
