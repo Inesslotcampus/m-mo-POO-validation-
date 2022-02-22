@@ -24,7 +24,7 @@ __Caractéristiques d'une classe. Définie par var,  ou rien__
 - var $nom_var
 - $nom_var
 ## Méthode
- __ensemble de fonctions essentielles et internes à la classe que chaques objets vont contenir.__
+ __ensemble de fonctions essentielles et internes à la classe que chaques objet va contenir.__
 
  - function namefunction(){} = créer des méthodes 
 
@@ -48,7 +48,8 @@ __Créer une classe à partir d'une classe grace à (new).__
 __Objet methods qui permet de controler l'accès à certaines variables et propriétés dans les classes .__
 ## Getter
 
-Permet de modifier une valeur d'un attribut privé.
+
+__Obtient la valeur d'un attribut en dehors de la classe lorsqu'il est private ou protected. Utilise un return et peut afficher un attribut privé avec echo;__
 - Ex:class Pet {
 
   private $name;
@@ -60,8 +61,8 @@ Permet de modifier une valeur d'un attribut privé.
 
 
 ## Setter
+__Permet de modifier une valeur d'un attribut privé ou protected.__
 
-__Utilise un return et peut afficher un attribut privé avec echo;__
 
 
 ## Héritage(inheritance)
@@ -76,7 +77,7 @@ __L'inhérence permet de réutiliser une classe dans ton code sans le duppliquer
 
 ## Surcharger(overriding)
 
-__Utilisation dans un paramètre ou une méthode d'une classe mère dans une classe fille.
+__Utilisation d'une méthode d'une classe mère dans une classe fille.
 Il faut redéclarer la classe mère avec le même nombre de caractères.__
 
 __Impossible de récuperer les éléments privés (private).__
